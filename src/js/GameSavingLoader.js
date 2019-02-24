@@ -1,4 +1,5 @@
 import readGameSaving from './readGameSaving';
+import GameSavingData from './GameSavingData';
 
 class GameSavingLoader {
   static load() {
@@ -12,4 +13,4 @@ class GameSavingLoader {
 }
 
 
-export { GameSavingData, GameSavingLoader };
+export default GameSavingLoader;
